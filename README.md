@@ -1,1 +1,1 @@
-This is the repository for my first alpha-blog app
+This is the repository for my first alpha-blog app.
