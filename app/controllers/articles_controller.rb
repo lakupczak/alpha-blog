@@ -16,7 +16,7 @@ class ArticlesController < ApplicationController
 
     @article = Article.new(article_params)
     if @article.save
-      flash[:notice] - "Article was successfuly created"
+      flash[:notice] = "Article was successfuly created"
     else
       render 'new'
     end
